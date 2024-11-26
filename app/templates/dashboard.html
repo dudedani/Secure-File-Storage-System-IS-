@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block title %}Dashboard - Secure File Storage{%
+endblock %} {% block content %}
+<h3>Welcome, {{ current_user.username }}!</h3>
+<p class="lead">You can now upload files, manage them, or log out.</p>
+<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+  <a class="btn btn-primary" href="{{ url_for('routes.upload_file') }}"
+    >Upload File</a
+  >
+  <a class="btn btn-secondary" href="{{ url_for('routes.files') }}">My Files</a>
+</div>
+{% endblock %}

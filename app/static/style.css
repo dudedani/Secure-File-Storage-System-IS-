@@ -1,0 +1,73 @@
+/* General Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Form Fields */
+.form-control {
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.btn-primary,
+.btn-secondary {
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+}
+
+/* Page Titles and Content */
+h2,
+h3 {
+  font-weight: 500;
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Card & Container */
+.container {
+  max-width: 900px;
+}
+
+ul.list-group {
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+}
